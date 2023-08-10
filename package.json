@@ -27,6 +27,7 @@
     "@angular/platform-browser": "^6.0.5",
     "@angular/platform-browser-dynamic": "^6.0.5",
     "@angular/router": "^6.0.5",
+    "angular-cli-ghpages": "^1.0.6",
     "core-js": "^2.5.7",
     "jquery": "^3.3.1",
     "rxjs": "^6.2.1",
