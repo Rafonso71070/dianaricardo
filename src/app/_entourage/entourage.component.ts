@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+/*import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 declare var $: any;
 
@@ -23,3 +23,4 @@ export class EntourageComponent implements OnInit, AfterViewInit {
   // }
 
 }
+*/

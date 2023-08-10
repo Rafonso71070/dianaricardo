@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+/*import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { SongRequestService } from '../_services/songRequest.service';
 declare var $: any;
@@ -31,3 +31,4 @@ export class SongRequestComponent implements OnInit, AfterViewInit {
   }
 
 }
+*/
