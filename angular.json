@@ -5,7 +5,7 @@
   "projects": {
     "diana-ricardo": {
       "root": "",
-      "sourceRoot": "docs",
+      "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
@@ -13,31 +13,31 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/diana-ricardo",
-            "index": "docs/index.html",
-            "main": "docs/main.ts",
-            "polyfills": "docs/polyfills.ts",
-            "tsConfig": "docs/tsconfig.app.json",
+            "outputPath": "docs/diana-ricardo",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "docs/favicon.ico",
-              "docs/assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "docs/assets/css/glanz_library.css",
-              "docs/assets/css/glanz_style.css",
-              "docs/styles.css"
+              "src/assets/css/glanz_library.css",
+              "src/assets/css/glanz_style.css",
+              "src/styles.css"
             ],
             "scripts": [
-              "docs/assets/js/glanz_library.js",
-              "docs/assets/js/glanz_script.js"
+              "src/assets/js/glanz_library.js",
+              "src/assets/js/glanz_script.js"
             ]
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "docs/environments/environment.ts",
-                  "with": "docs/environments/environment.prod.ts"
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
