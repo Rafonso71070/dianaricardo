@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { SongRequestService } from '../services/songRequest.service';
+import { SongRequestService } from '../_services/songRequest.service';
 declare var $: any;
 
 @Component({

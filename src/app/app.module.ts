@@ -9,12 +9,12 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { TravelComponent } from './travel/travel.component';
-import { EntourageComponent } from './entourage/entourage.component';
+//import { EntourageComponent } from './_entourage/entourage.component';
 import { FaqComponent } from './faq/faq.component';
 import { RegistryComponent } from './registry/registry.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { SongRequestComponent } from './song-request/song-request.component';
-import { SongRequestService } from './services/songRequest.service';
+//import { GalleryComponent } from './gallery/gallery.component';
+//import { SongRequestComponent } from './_song-request/song-request.component';
+//import { SongRequestService } from './_services/songRequest.service';
 import { TopNavComponent } from './top-nav/top-nav.component';
 
 const routes: Routes = [
@@ -25,8 +25,8 @@ const routes: Routes = [
   // { path: 'entourage', component: EntourageComponent},
   { path: 'faq', component: FaqComponent},
   { path: 'registry', component: RegistryComponent},
-  { path: 'gallery', component: GalleryComponent},
-  { path: 'song-request', component: SongRequestComponent},
+ // { path: 'gallery', component: GalleryComponent},
+  //{ path: 'song-request', component: SongRequestComponent},
 ];
 
 
@@ -36,9 +36,9 @@ const routes: Routes = [
     LandingPageComponent,
     ScheduleComponent,
     TravelComponent,
-    EntourageComponent,
-    SongRequestComponent,
-    GalleryComponent,
+    //EntourageComponent,
+    //SongRequestComponent,
+   // GalleryComponent,
     FaqComponent,
     TopNavComponent,
     RegistryComponent
@@ -49,7 +49,7 @@ const routes: Routes = [
     FormsModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [SongRequestService],
+  //providers: [SongRequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
