@@ -14,30 +14,30 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/diana-ricardo",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.app.json",
+            "index": "docs/index.html",
+            "main": "docs/main.ts",
+            "polyfills": "docs/polyfills.ts",
+            "tsConfig": "docs/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "docs/favicon.ico",
+              "docs/assets"
             ],
             "styles": [
-              "src/assets/css/glanz_library.css",
-              "src/assets/css/glanz_style.css",
-              "src/styles.css"
+              "docs/assets/css/glanz_library.css",
+              "docs/assets/css/glanz_style.css",
+              "docs/styles.css"
             ],
             "scripts": [
-              "src/assets/js/glanz_library.js",
-              "src/assets/js/glanz_script.js"
+              "docs/assets/js/glanz_library.js",
+              "docs/assets/js/glanz_script.js"
             ]
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "replace": "docs/environments/environment.ts",
+                  "with": "docs/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
