@@ -5,7 +5,7 @@
   "projects": {
     "diana-ricardo": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "docs",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
