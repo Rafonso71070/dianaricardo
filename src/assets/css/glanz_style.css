@@ -5344,8 +5344,7 @@ footer {
 }
 	.gla_shop_item_title:before,
 	.gla_news_title:before {
-		width: 1px;
-		background: #333;
+		
 		content: '';
 		display: block;
 		position: absolute;
