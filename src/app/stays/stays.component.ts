@@ -1,13 +1,13 @@
-/*import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 declare var $: any;
 
 @Component({
-  selector: 'app-entourage',
-  templateUrl: './entourage.component.html',
-  styleUrls: ['./entourage.component.css']
+  selector: 'app-stays',
+  templateUrl: './stays.component.html',
+  styleUrls: ['./stays.component.css']
 })
-export class EntourageComponent implements OnInit, AfterViewInit {
+export class StaysComponent implements OnInit, AfterViewInit {
 
   constructor(private router: Router) { }
 
@@ -23,4 +23,3 @@ export class EntourageComponent implements OnInit, AfterViewInit {
   // }
 
 }
-*/

@@ -1,20 +1,20 @@
 /*import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EntourageComponent } from './entourage.component';
+import { StaysComponent } from './stays.component';
 
-describe('EntourageComponent', () => {
-  let component: EntourageComponent;
-  let fixture: ComponentFixture<EntourageComponent>;
+describe('StaysComponent', () => {
+  let component: StaysComponent;
+  let fixture: ComponentFixture<StaysComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EntourageComponent ]
+      declarations: [ StaysComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EntourageComponent);
+    fixture = TestBed.createComponent(StaysComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

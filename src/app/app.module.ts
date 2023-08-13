@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { TravelComponent } from './travel/travel.component';
-//import { EntourageComponent } from './_entourage/entourage.component';
+import { StaysComponent } from './stays/stays.component';
 import { FaqComponent } from './faq/faq.component';
 import { RegistryComponent } from './registry/registry.component';
 //import { GalleryComponent } from './gallery/gallery.component';
@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'index',  component: LandingPageComponent },
   { path: 'schedule', component: ScheduleComponent},
   { path: 'travel', component: TravelComponent},
-  // { path: 'entourage', component: EntourageComponent},
+  { path: 'stays', component: StaysComponent},
   { path: 'faq', component: FaqComponent},
   { path: 'registry', component: RegistryComponent},
  // { path: 'gallery', component: GalleryComponent},
@@ -36,7 +36,7 @@ const routes: Routes = [
     LandingPageComponent,
     ScheduleComponent,
     TravelComponent,
-    //EntourageComponent,
+    StaysComponent,
     //SongRequestComponent,
    // GalleryComponent,
     FaqComponent,
