@@ -731,7 +731,7 @@ textarea.form-control {
 	color: #fff;
 }
 	.gla_wht_txt .btn:hover {
-		background: rgba(0,0,0,0.9);
+		background: rgba(49, 62, 44,0.5);
 	}
 .col-md-12 .twitter-feed {
 	margin: 50px auto 0;
@@ -1572,14 +1572,14 @@ ul.mega-menu {
 	.mega-menu-col-header {
 		font-size: 24px;
 		margin-bottom: 30px;
-		color: #333;
+		color: #fff;
 	}
 
 /*Main Menu*/
 .gla_main_menu {
 	position: absolute;
 	right: 15px;
-	color: #333;
+	color: #fff;
 	top: 32px;
 	height: 50px;
 	width: 75px;
@@ -1610,7 +1610,7 @@ ul.mega-menu {
 		width: 30px;
 		height: 4px;
 		border-radius: 3px;
-		background: #333;
+		background: #fff;
 		position: absolute;
 		-webkit-transition: all 0.7s;
 		-o-transition: all 0.7s;
@@ -1922,10 +1922,10 @@ ul.mega-menu {
 				background-color: rgba(255,255,255,0.9);
 				-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.1);
 				box-shadow: 0 0 7px rgba(0,0,0,0.1);
-				color: #333;
+				color: #fff;
 			}
 			.gla_first_step header nav.gla_transp_nav a {
-				color: #333;
+				color: #fff;
 			}
 
 
@@ -5344,8 +5344,7 @@ footer {
 }
 	.gla_shop_item_title:before,
 	.gla_news_title:before {
-		width: 1px;
-		background: #333;
+		
 		content: '';
 		display: block;
 		position: absolute;
@@ -5606,7 +5605,7 @@ footer {
 		padding: 0;
 	}
 	.gla_first_step .gla_main_menu_icon i {
-		background: #333;
+		background: #fff;
 	}
 
 	.gla_main_menu.active .gla_main_menu_icon i,
@@ -5615,7 +5614,7 @@ footer {
 		background: #fff;
 	}
 	.gla_first_step .gla_main_menu_icon b {
-		color: #333;
+		color: #fff;
 	}
 	.gla_main_menu.active .gla_main_menu_icon b,
 	.gla_first_step .gla_wht_txt .gla_main_menu_icon b,
