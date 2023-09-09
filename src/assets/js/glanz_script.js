@@ -326,11 +326,6 @@
 		var $gla_main_menu_content = $('.gla_main_menu_content');
 		var $gla_main_menu_content_menu = $('.gla_main_menu_content_menu');
  
-		// $('.gla_main_menu').on("click", function(e){
-		// 	$(this).next('.gla_main_menu_content').toggleClass('active');
-		// 	$(this).next().next('.gla_main_menu_content_menu').toggleClass('active');
-		// 	$(this).toggleClass('active');
-		// });
 
 		$('.gla_main_menu').on("click", function(e){
 			$gla_main_menu_content.toggleClass('active');

@@ -18,8 +18,5 @@ export class FaqComponent implements OnInit, AfterViewInit {
     $.getScript('assets/js/glanz_script.js');
   }
 
-  // refresh(): void {
-  //   window.location.reload();
-  // }
 
 }
