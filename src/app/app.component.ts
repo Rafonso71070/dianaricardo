@@ -23,7 +23,4 @@ export class AppComponent implements OnInit {
     });
   }
 
-  // refresh(): void {
-  //   window.location.reload();
-  // }
 }

@@ -12,9 +12,6 @@ import { TravelComponent } from './travel/travel.component';
 import { StaysComponent } from './stays/stays.component';
 import { FaqComponent } from './faq/faq.component';
 import { RegistryComponent } from './registry/registry.component';
-//import { GalleryComponent } from './gallery/gallery.component';
-//import { SongRequestComponent } from './_song-request/song-request.component';
-//import { SongRequestService } from './_services/songRequest.service';
 import { TopNavComponent } from './top-nav/top-nav.component';
 
 const routes: Routes = [
@@ -24,9 +21,7 @@ const routes: Routes = [
   { path: 'travel', component: TravelComponent},
   { path: 'stays', component: StaysComponent},
   { path: 'faq', component: FaqComponent},
-  { path: 'registry', component: RegistryComponent},
- // { path: 'gallery', component: GalleryComponent},
-  //{ path: 'song-request', component: SongRequestComponent},
+  { path: 'registry', component: RegistryComponent}
 ];
 
 
